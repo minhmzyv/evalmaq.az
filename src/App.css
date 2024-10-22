@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: "Vollkorn", serif;
+  text-shadow: 0px 1px 0px #0000006b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p {
+  color: #515151d9;
+  text-shadow: 0px 1px 0px #0000006b;
+}
+
+.baslaBtn {
+  background-color: #cb9c32;
+}
+
+.baslaBtn:hover {
+  background-color: black;
+
+}
+
+.evalmaqText {
+  font-family: "Lobster", sans-serif;
+  text-shadow: 0px 1px 0px #0000006b;
+}
+
+.nav-link {
+  font-family: "Vollkorn", serif;
+  color: black;
+  text-shadow: 0px 1px 0px #0000006b;
+}
+
+.bgGold {
+  background-color: #cb9c32;
+  border: #cb9c32;
+}
+
+.bgGold:hover {
+  background-color: black;
+}
+
+.colorGold {
+  color: #cb9c32;
+}
+
+.nav-link:hover {
+  color: #cb9c32;
+}
+
+.active {
+  color: #cb9c32 !important;
+}
+
+.Search .container {
+  position: absolute;
+  bottom: -60px;
+
+}
+
+.search-container {
+  border-radius: 10px;
+}
+
+.Header {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-image: url(../public/img/headerphoto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navLogo .logo {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width:768px) {
+  .headerTexts {
+    padding-top: .25rem !important;
+    padding-bottom: .25rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerTexts .websiteLog {
+    display: none;
+  }
+
+  .headerTexts .row {
+    padding: 0 !important;
+  }
+
+  .headerTexts h2 {
+    text-align: center;
+  }
+
+  .headerTexts p {
+    /* display: none; */
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .headerTexts button {
+    margin: 0;
+  }
+
+  .Search .container {
+    bottom: -200px;
+  }
+
+  .realestateCol {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Home .container-fluid {
+  background-image: url(assets/img/realstate.png);
+  background-size: cover;
 }
