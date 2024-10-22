@@ -45,7 +45,67 @@
         ]
     },
     {
-        "emlakid": "2",
+        "emlakid": "4",
+        "tipi": "Villa",
+        "unvani": "Quba-Xınalığ yolunun ",
+        "qiymeti": "20000",
+        "sekilleri": [
+            "/img/emlaklar/qubatorpag1.jpeg",
+            "/img/emlaklar/qubatorpag2.jpeg",
+            "/img/emlaklar/qubatorpag3.jpeg",
+            "/img/emlaklar/qubatorpag4.jpeg",
+            "/img/emlaklar/qubatorpag5.jpeg",
+            "/img/emlaklar/qubatorpag6.jpeg",
+            "/img/emlaklar/qubatorpag7.jpeg"
+        ]
+    },
+    {
+        "emlakid": "5",
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Quba-Xınalığ yolunun 25km-liyində",
+        "qiymeti": "10000",
+        "sekilleri": [
+            "/img/emlaklar/qubatorpag1.jpeg",
+            "/img/emlaklar/qubatorpag2.jpeg",
+            "/img/emlaklar/qubatorpag3.jpeg",
+            "/img/emlaklar/qubatorpag4.jpeg",
+            "/img/emlaklar/qubatorpag5.jpeg",
+            "/img/emlaklar/qubatorpag6.jpeg",
+            "/img/emlaklar/qubatorpag7.jpeg",
+            "/img/emlaklar/qubatorpag8.jpeg",
+            "/img/emlaklar/qubatorpag9.jpeg"
+        ]
+    },
+    {
+        "emlakid": "6",
+        "tipi": "Mənzil",
+        "unvani": "Quba-Xınalığ yolunun ",
+        "qiymeti": " Razılaşma yolu ilə",
+        "sekilleri": [
+            "/img/emlaklar/qubatorpag1.jpeg",
+            "/img/emlaklar/qubatorpag2.jpeg",
+            "/img/emlaklar/qubatorpag3.jpeg",
+            "/img/emlaklar/qubatorpag4.jpeg",
+            "/img/emlaklar/qubatorpag5.jpeg",
+            "/img/emlaklar/qubatorpag6.jpeg",
+            "/img/emlaklar/qubatorpag7.jpeg"
+        ]
+    },
+    {
+        "emlakid": "7",
+        "tipi": "Mənzil",
+        "unvani": "Xınalığ yolununda ",
+        "qiymeti": "50000",
+        "sekilleri": [
+            "/img/emlaklar/qubatorpag1.jpeg",
+            "/img/emlaklar/qubatorpag2.jpeg",
+            "/img/emlaklar/qubatorpag3.jpeg",
+            "/img/emlaklar/qubatorpag4.jpeg",
+            "/img/emlaklar/qubatorpag5.jpeg"
+        ]
+    },
+    {
+        "emlakid": "8",
         "tipi": "Villa",
         "unvani": "Quba-Xınalığ yolunun ",
         "qiymeti": "20000",
