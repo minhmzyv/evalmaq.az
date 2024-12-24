@@ -1,20 +1,20 @@
 import React from 'react';
 
-const Searchs = () => {
+const Searchs = ({ handleFilterChange, handleSearch }) => {
     return (
         <div className='Search d-flex justify-content-center align-items-center'>
             <div className='container d-flex justify-content-center'>
                 <div className="search-container p-4 shadow bg-white">
-                    <h5 className='text-center'>Mövcud əmlaklar üçün axtarış edin</h5>
-                    <form className="row g-3 py-1">
-                        <div className="col-md-3">
+                    <h3 className='text-center fs-5'>Mövcud əmlaklar üçün axtarış edin</h3>
+                    <form className="row g-3 py-1 justify-content-center" onSubmit={handleSearch}>
+                        <div className="col-md-4">
                             <div className="input-group">
-                                <select className="form-select fw-bold" aria-label="Property">
-                                    <option defaultValue className='fw-bold'>Məkanlar</option>
-                                    <option value="1" className='fw-bold'>Sumqayıt</option>
-                                    <option value="2" className='fw-bold'>Bakı</option>
-                                    <option value="3" className='fw-bold'>Quba</option>
-                                    <option value="4" className='fw-bold'>Qusar</option>
+                                <select className="form-select fw-bold" aria-label="Property" name="location" onChange={handleFilterChange}>
+                                    <option value="" className='fw-bold'>Məkanlar</option>
+                                    <option value="Sumqayıt" className='fw-bold'>Sumqayıt</option>
+                                    <option value="Bakı" className='fw-bold'>Bakı</option>
+                                    <option value="Quba" className='fw-bold'>Quba</option>
+                                    <option value="Qusar" className='fw-bold'>Qusar</option>
                                 </select>
                                 <span className="input-group-text colorGold">
                                     <i className="bi bi-geo-alt-fill"></i>
@@ -22,13 +22,13 @@ const Searchs = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-3">
+                        <div className="col-md-5">
                             <div className="input-group">
-                                <select className="form-select fw-bold" aria-label="Property Type">
-                                    <option defaultValue className='fw-bold'>Əmlak Tipi</option>
-                                    <option value="1" className='fw-bold'>Mənzillər</option>
-                                    <option value="2" className='fw-bold'>Torpağ Sahələri</option>
-                                    <option value="3" className='fw-bold'>Villalar</option>
+                                <select className="form-select fw-bold" aria-label="Property Type" name="propertyType" onChange={handleFilterChange}>
+                                    <option value="" className='fw-bold'>Əmlak Tipi</option>
+                                    <option value="Mənzil" className='fw-bold'>Mənzillər</option>
+                                    <option value="Torpağ Sahəsi" className='fw-bold'>Torpağ Sahələri</option>
+                                    <option value="Villa" className='fw-bold'>Villalar</option>
                                 </select>
                                 <span className="input-group-text colorGold">
                                     <i className="bi bi-house-door-fill"></i>
@@ -36,17 +36,19 @@ const Searchs = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-3">
+                        {/* <div className="col-md-3">
                             <div className="input-group">
                                 <input
                                     type="number"
                                     className="form-control fw-bold"
                                     placeholder="Büdcə"
                                     aria-label="Budget"
+                                    name="budget"
+                                    onChange={handleFilterChange}
                                 />
                                 <span className="input-group-text colorGold fw-bold">₼</span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-md-3">
                             <button type="submit" className="btn baslaBtn text-light fw-bold w-100">İndi Axtarın</button>

@@ -1,6 +1,6 @@
 [
     {
-        "emlakid": "1",
+        "emlakid": 1,
         "tipi": "Torpağ Sahəsi",
         "unvani": "Quba-Xınalığ yolunun 25km-liyində",
         "qiymeti": "10000",
@@ -17,106 +17,29 @@
         ]
     },
     {
-        "emlakid": "2",
-        "tipi": "Mənzil",
-        "unvani": "Quba-Xınalığ yolunun ",
-        "qiymeti": " Razılaşma yolu ilə",
-        "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg",
-            "/img/emlaklar/qubatorpag6.jpeg",
-            "/img/emlaklar/qubatorpag7.jpeg"
-        ]
-    },
-    {
-        "emlakid": "3",
-        "tipi": "Mənzil",
-        "unvani": "Xınalığ yolununda ",
-        "qiymeti": "50000",
-        "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg"
-        ]
-    },
-    {
-        "emlakid": "4",
-        "tipi": "Villa",
-        "unvani": "Quba-Xınalığ yolunun ",
-        "qiymeti": "20000",
-        "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg",
-            "/img/emlaklar/qubatorpag6.jpeg",
-            "/img/emlaklar/qubatorpag7.jpeg"
-        ]
-    },
-    {
-        "emlakid": "5",
+        "emlakid": 2,
         "tipi": "Torpağ Sahəsi",
-        "unvani": "Quba-Xınalığ yolunun 25km-liyində",
-        "qiymeti": "10000",
+        "unvani": "Quba r-nun mərkəzindən 5-10 dəqiqəlik məsafədədir,",
+        "qiymeti": "Razılaşma yolu ilə",
         "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg",
-            "/img/emlaklar/qubatorpag6.jpeg",
-            "/img/emlaklar/qubatorpag7.jpeg",
-            "/img/emlaklar/qubatorpag8.jpeg",
-            "/img/emlaklar/qubatorpag9.jpeg"
+            "/img/emlaklar/qubatorpagsahesi1.jpeg",
+            "/img/emlaklar/qubatorpagsahesi2.jpeg",
+            "/img/emlaklar/qubatorpagsahesi3.jpeg",
+            "/img/emlaklar/qubatorpagsahesi4.jpeg",
+            "/img/emlaklar/qubatorpagsahesi5.jpeg",
+            "/img/emlaklar/qubatorpagsahesi6.jpeg"
         ]
     },
     {
-        "emlakid": "6",
-        "tipi": "Mənzil",
-        "unvani": "Quba-Xınalığ yolunun ",
-        "qiymeti": " Razılaşma yolu ilə",
+        "emlakid": 3,
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Quba Rayonu",
+        "qiymeti": "Razılaşma yolu ilə",
         "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg",
-            "/img/emlaklar/qubatorpag6.jpeg",
-            "/img/emlaklar/qubatorpag7.jpeg"
-        ]
-    },
-    {
-        "emlakid": "7",
-        "tipi": "Mənzil",
-        "unvani": "Xınalığ yolununda ",
-        "qiymeti": "50000",
-        "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg"
-        ]
-    },
-    {
-        "emlakid": "8",
-        "tipi": "Villa",
-        "unvani": "Quba-Xınalığ yolunun ",
-        "qiymeti": "20000",
-        "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg",
-            "/img/emlaklar/qubatorpag6.jpeg",
-            "/img/emlaklar/qubatorpag7.jpeg"
+            "/img/emlaklar/qubatorpag10.jpg",
+            "/img/emlaklar/qubatorpag11.jpg",
+            "/img/emlaklar/qubatorpag12.jpg",
+            "/img/emlaklar/qubatorpag13.jpg"
         ]
     }
 ]

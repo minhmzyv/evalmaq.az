@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Searchs from './Searchs';
 
 const Header = () => {
     return (
@@ -33,7 +32,6 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <Searchs />
         </div>
     );
 }

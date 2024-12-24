@@ -6,7 +6,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-sm navbar-dark">
                 <div className="container">
                     <div className='navLogo d-flex justify-content-center align-items-center'>
-                        <img src={evalmaqLogo} alt='evalmaqlogo' className='logo' />
+                        <img rel="preload" src={evalmaqLogo} alt='evalmaqlogo' className='logo' />
                         <a className="navbar-brand fw-bold text-black evalmaqText" href="">EvAlmaq.
                             <span className='colorGold'>az</span></a>
                     </div>
@@ -20,13 +20,13 @@ const Navbar = () => {
                                 <a className="nav-link active fw-bold fs-5" href="">Ana Səhifə</a>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link fw-bold fs-5" href="">Əmlaklar</a>
+                                <a className="nav-link fw-bold fs-5" href="#emlaklar">Əmlaklar</a>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link fw-bold fs-5" href="">Əlaqə</a>
+                                <a className="nav-link fw-bold fs-5" href="#services">Xidmətlər</a>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link fw-bold fs-5" href="">Haqqımızda</a>
+                                <a className="nav-link fw-bold fs-5" href="#contact">Əlaqə</a>
                             </li>
                         </ul>
                     </div>

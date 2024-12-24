@@ -5,6 +5,10 @@
 
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 h2 {
   font-family: "Vollkorn", serif;
   text-shadow: 0px 1px 0px #0000006b;
@@ -42,6 +46,7 @@ p {
 
 .bgGold:hover {
   background-color: black;
+  color: white;
 }
 
 .colorGold {
@@ -58,7 +63,7 @@ p {
 
 .Search .container {
   position: absolute;
-  bottom: -60px;
+  bottom: 30px;
 
 }
 
@@ -121,14 +126,156 @@ p {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
   }
+
+  .servicesCol {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    transform: scale(90%);
+  }
+
+  .Contact .card h5 {
+    font-size: 0.9rem !important;
+  }
+
+  .Contact .card form .firstInputs {
+    display: block !important;
+  }
+
+  .Contact .card form .firstInputs input {
+    width: 350px;
+    margin-bottom: 1rem;
+  }
+
+  .emailForm {
+    width: 350px !important;
+  }
+
+  .copyRightPolicy {
+    justify-content: space-around !important;
+
+  }
+
+  .copyRightPolicy a {
+    margin: 0 !important;
+  }
+
 }
 
-.card img:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
+.realestateCol .card {
+  height: 100%;
 }
 
-.Home .container-fluid {
-  background-image: url(assets/img/realstate.png);
-  background-size: cover;
+.realestateCol .card-body {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.card img {
+  height: 250px !important;
+  width: 100%;
+}
+
+
+
+.service-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-image {
+  transform: scale(70%);
+  margin: 0 auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.service-card .btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.Contact .card .nameForm {
+  width: 400px;
+}
+
+.Contact .card .emailForm {
+  width: 800px;
+  height: 45px;
+}
+
+.Contact .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Footer {
+  background-color: #098ec7;
+}
+
+.footer-social-icons a {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 15px 30px;
+  padding-left: 5px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-social-icons a:hover {
+  color: #cb9c32;
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+}
+
+.footer-contact-text {
+  position: relative;
+}
+
+.footer-contact-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 65px;
+  height: 2px;
+  background-color: #cb9c32;
+}
+
+.footer-contact ul li {
+  list-style: none;
+}
+
+.footer-subscribe-text {
+  position: relative;
+}
+
+.footer-subscribe-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 85px;
+  height: 2px;
+  background-color: #cb9c32;
+}
+
+.footer-subscribe input {
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 40px;
 }
