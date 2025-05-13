@@ -5,15 +5,15 @@
         "unvani": "Quba-Xınalığ yolunun 25km-liyində",
         "qiymeti": "10000",
         "sekilleri": [
-            "/img/emlaklar/qubatorpag1.jpeg",
-            "/img/emlaklar/qubatorpag2.jpeg",
-            "/img/emlaklar/qubatorpag3.jpeg",
-            "/img/emlaklar/qubatorpag4.jpeg",
-            "/img/emlaklar/qubatorpag5.jpeg",
-            "/img/emlaklar/qubatorpag6.jpeg",
-            "/img/emlaklar/qubatorpag7.jpeg",
-            "/img/emlaklar/qubatorpag8.jpeg",
-            "/img/emlaklar/qubatorpag9.jpeg"
+            "/img/emlaklar/qubatorpag1.webp",
+            "/img/emlaklar/qubatorpag2.webp",
+            "/img/emlaklar/qubatorpag3.webp",
+            "/img/emlaklar/qubatorpag4.webp",
+            "/img/emlaklar/qubatorpag5.webp",
+            "/img/emlaklar/qubatorpag6.webp",
+            "/img/emlaklar/qubatorpag7.webp",
+            "/img/emlaklar/qubatorpag8.webp",
+            "/img/emlaklar/qubatorpag9.webp"
         ]
     },
     {
@@ -22,12 +22,12 @@
         "unvani": "Quba r-nun mərkəzindən 5-10 dəqiqəlik məsafədədir,",
         "qiymeti": "Razılaşma yolu ilə",
         "sekilleri": [
-            "/img/emlaklar/qubatorpagsahesi1.jpeg",
-            "/img/emlaklar/qubatorpagsahesi2.jpeg",
-            "/img/emlaklar/qubatorpagsahesi3.jpeg",
-            "/img/emlaklar/qubatorpagsahesi4.jpeg",
-            "/img/emlaklar/qubatorpagsahesi5.jpeg",
-            "/img/emlaklar/qubatorpagsahesi6.jpeg"
+            "/img/emlaklar/qubatorpagsahesi1.webp",
+            "/img/emlaklar/qubatorpagsahesi2.webp",
+            "/img/emlaklar/qubatorpagsahesi3.webp",
+            "/img/emlaklar/qubatorpagsahesi4.webp",
+            "/img/emlaklar/qubatorpagsahesi5.webp",
+            "/img/emlaklar/qubatorpagsahesi6.webp"
         ]
     },
     {
@@ -36,10 +36,87 @@
         "unvani": "Quba Rayonu",
         "qiymeti": "Razılaşma yolu ilə",
         "sekilleri": [
-            "/img/emlaklar/qubatorpag10.jpg",
-            "/img/emlaklar/qubatorpag11.jpg",
-            "/img/emlaklar/qubatorpag12.jpg",
-            "/img/emlaklar/qubatorpag13.jpg"
+            "/img/emlaklar/qubatorpag10.webp",
+            "/img/emlaklar/qubatorpag11.webp",
+            "/img/emlaklar/qubatorpag12.webp",
+            "/img/emlaklar/qubatorpag13.webp"
+        ]
+    },
+    {
+        "emlakid": 4,
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Quba Rayonu Qacarzeyid kəndi ",
+        "qiymeti": "Razılaşma yolu ilə",
+        "sekilleri": [
+            "/img/emlaklar/Qacarzeyid1.webp",
+            "/img/emlaklar/Qacarzeyid2.webp",
+            "/img/emlaklar/Qacarzeyid3.webp",
+            "/img/emlaklar/Qacarzeyid4.webp",
+            "/img/emlaklar/Qacarzeyid5.webp",
+            "/img/emlaklar/Qacarzeyid6.webp",
+            "/img/emlaklar/Qacarzeyid7.webp",
+            "/img/emlaklar/Qacarzeyid8.webp"
+        ]
+    },
+    {
+        "emlakid": 5,
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Göyçay rayonu Cəyirli Kəndi.",
+        "qiymeti": "Razılaşma yolu ilə",
+        "sekilleri": [
+            "/img/emlaklar/goycayrayonu_ceyirli1.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli2.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli3.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli4.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli5.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli6.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli7.webp",
+            "/img/emlaklar/goycayrayonu_ceyirli8.webp"
+        ]
+    },
+    {
+        "emlakid": 6,
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Xaçmaz rayonu",
+        "qiymeti": "Razılaşma yolu ilə",
+        "sekilleri": [
+            "/img/emlaklar/xacmazbag1.webp",
+            "/img/emlaklar/xacmazbag2.webp",
+            "/img/emlaklar/xacmazbag3.webp",
+            "/img/emlaklar/xacmazbag4.webp",
+            "/img/emlaklar/xacmazbag5.webp",
+            "/img/emlaklar/xacmazbag6.webp",
+            "/img/emlaklar/xacmazbag7.webp",
+            "/img/emlaklar/xacmazbag8.webp",
+            "/img/emlaklar/xacmazbag9.webp",
+            "/img/emlaklar/xacmazbag10.webp",
+            "/img/emlaklar/xacmazbag11.webp"
+        ]
+    },
+    {
+        "emlakid": 7,
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Alksefqa",
+        "qiymeti": "Razılaşma yolu ilə",
+        "sekilleri": [
+            "/img/emlaklar/Alksefqa1.webp",
+            "/img/emlaklar/Alksefqa2.webp",
+            "/img/emlaklar/Alksefqa3.webp",
+            "/img/emlaklar/Alksefqa4.webp",
+            "/img/emlaklar/Alksefqa5.webp"
+        ]
+    },
+    {
+        "emlakid": 7,
+        "tipi": "Torpağ Sahəsi",
+        "unvani": "Ağaverdi Oba",
+        "qiymeti": "Razılaşma yolu ilə",
+        "sekilleri": [
+            "/img/emlaklar/agaverdioba1.webp",
+            "/img/emlaklar/agaverdioba2.webp",
+            "/img/emlaklar/agaverdioba3.webp",
+            "/img/emlaklar/agaverdioba4.webp",
+            "/img/emlaklar/agaverdioba5.webp"
         ]
     }
 ]

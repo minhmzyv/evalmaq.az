@@ -1,5 +1,5 @@
 import React from 'react'
-import evalmaqLogo from '../assets/img/logo.png'
+import evalmaqLogo from '../assets/img/logo.webp'
 const Navbar = () => {
     return (
         <div className='Navbar'>

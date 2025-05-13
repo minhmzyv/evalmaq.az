@@ -6,6 +6,7 @@ import axios from 'axios';
 import Searchs from '../components/Searchs';
 import Services from './Services';
 import Contact from './Contact';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     const [emlaklar, setEmlaklar] = useState([]);
@@ -77,6 +78,17 @@ const Home = () => {
 
     return (
         <div className='Home py-5 mt-5'>
+            <Helmet>
+                <title>Əmlak Al və Sat - Evalmaq.az</title>
+                <meta
+                    name="description"
+                    content="Evalmaq.az ilə asanlıqla ev alın və ya satın. Azərbaycanın ən etibarlı emlak platformu."
+                />
+                <meta
+                    name="keywords"
+                    content="emlak, ev al, ev sat, Azerbaycan emlak, evalmaq.az"
+                />
+            </Helmet>
             <div className='container-fluid py-5 mt-5'>
                 <h2 className='fw-bold text-center py-5' id='emlaklar'>Satılan Əmlaklar</h2>
 

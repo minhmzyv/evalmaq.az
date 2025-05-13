@@ -75,7 +75,7 @@ p {
   position: relative;
   height: 90vh;
   width: 100%;
-  background-image: url(../public/img/headerphoto.png);
+  background-image: url(../public/img/headerphoto.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,5 +1,5 @@
 import React from 'react'
-import evalmaqLogo from '../assets/img/logo.png'
+import evalmaqLogo from '../assets/img/logo.webp'
 const Footer = () => {
     return (
         <div className='Footer pt-5'>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <hr />
                 <div className='row py-3 footer-bottom d-flex justify-content-between '>
                     <div className='col-md-6'>
-                        <p className=' text-light fw-bold'>© 2024 <span className='colorGold'>EvAlmaq.az</span> . Bütün hüquqlar qorunur.</p>
+                        <p className=' text-light fw-bold'>© 2024 <span className='colorGold'>Evalmaq.az</span> . Bütün hüquqlar qorunur.</p>
                     </div>
                     <div className='col-md-6 justify-content-end d-flex copyRightPolicy'>
                         <a className='text-light fw-bold'>Məxfilik Siyasəti</a>

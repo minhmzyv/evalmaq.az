@@ -15,6 +15,8 @@ const Searchs = ({ handleFilterChange, handleSearch }) => {
                                     <option value="Bakı" className='fw-bold'>Bakı</option>
                                     <option value="Quba" className='fw-bold'>Quba</option>
                                     <option value="Qusar" className='fw-bold'>Qusar</option>
+                                    <option value="Xaçmaz" className='fw-bold'>Xaçmaz</option>
+                                    <option value="Göyçay" className='fw-bold'>Göyçay</option>
                                 </select>
                                 <span className="input-group-text colorGold">
                                     <i className="bi bi-geo-alt-fill"></i>
